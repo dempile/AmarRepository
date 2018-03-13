@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shared.component.css']
 })
 export class SharedComponent implements OnInit {
-
+  title: string;
   constructor() { }
 
   ngOnInit() {
+  this.title = 'Mon App';
   }
 
 }
